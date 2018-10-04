@@ -18,10 +18,16 @@ Then update project:
 composer update
 ```
 
-### Execute local
+### Execute local server
 ```
 php -S 127.0.0.1:8000 -t public
 ```
+
+### Example request
+```
+http://localhost/api/1/recipes?provider=RecipePuppy&query=steak&page=1
+```
+
 
 
 ## Built With
